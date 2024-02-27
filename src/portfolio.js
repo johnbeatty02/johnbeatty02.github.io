@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "John Beatty",
+  title: "Hi, I'm John",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Mechanical Engineer 🔧 leveraging innovative design and analysis to solve complex engineering challenges and drive technological advancement."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1n29uR-xzNVjysHEmpzOL7IHYZs5vq-po/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/johnbeatty02",
+  linkedin: "https://www.linkedin.com/in/johnbeatty02/",
+  gmail: "beatty.j@northeastern.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,74 +45,38 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CREATIVE MECHANICAL ENGINEER WHO LOVES TO INNOVATE AND SOLVE PROBLEMS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and simulation of mechanical systems using software like SOLIDWORKS, Fusion 360, and ANSYS"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Development of prototypes and conducting various tests to validate the mechanical design"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ A passion for hands-on work"
+    ),
+    emoji(
+      "⚡ Application of engineering principles to solve complex mechanical problems"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  {
+    skillName: "",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "",
+    fontAwesomeClassname: "fas fa-wrench"
+  },
+  {
+    skillName: "",
+    fontAwesomeClassname: "fas fa-hammer"
+  },
+
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,31 +86,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Northeastern University",
+      logo: require("./assets/images/northeasternLogo.png"),
+      subHeader: "Bachelor of Science in Mechanical Engineering",
+      duration: "September 2020 - May 2024",
+      desc: "GPA of 3.22, Dean's List Fall 2023",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Member, American Society of Mechanical Engineers",
+        "Member, Northeastern University Wind Ensemble",
+        'Member, Boston College "Screaming Eagles" Marching Band'
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +127,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Mechanical Engineering Co-op",
+      company: "Shell TechWorks",
+      companylogo: require("./assets/images/stwLogo.png"),
+      date: "January 2023 – June 2023",
+      desc: "Shell TechWorks is a small branch of Shell focused on adapting and developing advanced technologies from other industries to meet the energy sector's unique challenges.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and manufactured test fixtures and test plan for new mechanical design; consulted with vendors to optimize component design",
+        "Approved large mechanical assembly drawings and ensured manufacturability and compliance with technical standards for accurate drawings, including GD&T and welding symbols",
+        "Designed, tested, and implemented a streamlined workflow for internal document approval in SOLIDWORKS PDM",
+        "Selected internal lab tool based on technical requirements, user needs, and ergonomics and designed and manufactured adapters to ensure compatibility with existing equipment"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mechanical Engineering Co-op",
+      company: "Waters Corporation",
+      companylogo: require("./assets/images/watersLogo.png"),
+      date: "January 2021 – June 2021",
+      desc: "The Instrument Development Group at Waters Corporation specializes in designing, testing, and refining analytical instruments and technologies to advance scientific research and address complex analytical challenges.",
+      descBullets: [
+        "Conducted tests, analyzed data, and reconfigured hardware to improve thermal performance in electromechanical instruments",
+        "Performed feasibility study, concept development, component selection, prototype, and test of a fixture to verify various performance characteristics of axial fans on time and within budget",
+        "Streamlined measurement process and increased data accuracy by designing and 3D-printing fixtures to hold components under test",
+        "Performed cycle tests on prototype components, prepared solvents, led troubleshooting process, and analyzed performance over time using chromatograms",
+        "Guided selection of components for alignment of an optomechanical structure using SOLIDWORKS FEA",
+        "Performed surface roughness measurements using Keyence VK-X200 laser microscope and analyzed data"
+      ]
     }
   ]
 };
@@ -205,42 +161,47 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some of the big projects I have worked on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ski.png"),
+      projectName: "Foldable Cross Country Skis",
+      projectDesc: "Worked with a team of 6 Northeastern University students to design a foldable cross-country ski with universal binding compatibility for use by the U.S. Army in tundra regions. Completed project through background research, concept development, component selection, and prototype phases.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+        { name: "More Information", url: "https://www.johnbeatty.net/projects/capstone" }
+      ],
+      descBullets: [
+        "Developed innovative foldable design to enhance portability",
+        "Conducted rigorous stress testing to ensure durability",
+        "Utilized CAD software for precise engineering and design"
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/boat_in_water.png"),
+      projectName: "Optimizing Hydrodynamic Nosecone Design of an Autonomous Omnidirectional Catamaran Vehicle",
+      projectDesc: "Performed analysis in ANSYS Fluent to select the best nose cone design for an autonomous catamaran vessel and utilized a parameter sweep to determine the drag force and heat flux for each nose cone geometry",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        { name: "More Information", url: "https://www.johnbeatty.net/projects/cfd" }
+      ],
+      descBullets: [
+        "Implemented a microservices architecture to improve scalability",
+        "Developed a responsive web application using React and Node.js",
+        "Integrated with several university databases for real-time data access"
       ]
     }
+    // Add more projects as needed
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -248,55 +209,43 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications,and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Engineer-in-Training Certification (Pending)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Pending successful FE Exam on March 13 and graduation from Northeastern University on May 5.",
+      image: require("./assets/images/manwriting.png"),
+      imageAlt: "Man writing on glass surface",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "About the FE Exam",
+          url: "https://ncees.org/exams/fe-exam/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Certified SOLIDWORKS Professional",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Proficient in advanced SOLIDWORKS techniques.",
+      image: require("./assets/images/solidworks.png"),
+      imageAlt: "SOLIDWORKS Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/17yWQJ-TLzesfeg1h6NaUBg-0WUDTLnYc/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Notary Public",
+      subtitle: "Certified Notary Public in Massachusetts, authorized to certify documents and authenticate signatures for legal proceedings.",
+      image: require("./assets/images/mass.png"),
+      imageAlt: "Seal of Massachusetts",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "About", url: "https://www.notarize.com/blog/what-is-a-notary-public"}
       ]
     }
   ],
@@ -324,7 +273,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +292,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +305,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Want to discuss an opening or just say hi? My Inbox is open to all!",
+  number: "(508) 954-4798",
+  email_address: "beatty.j@northeastern.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
